@@ -1,0 +1,107 @@
+.card{
+    width: 500px;
+    height: 300px;
+    background-color: #1f2a48;
+    border-radius: 10px;
+    display: flex;
+}
+
+.cat-img-container{
+    width: 20%;
+}
+
+.github-cat{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.card-content-box{
+    width: 80%;
+    padding: 20px;
+}
+.content-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.name_row1{
+    margin: 5px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name{
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.join-date{
+    font-size: 12px;
+    color: #8087a1;
+    font-weight: bold;
+}
+
+.nickname{
+    text-align: left;
+    font-size: 12px;
+    color: #0378fc;
+    margin-bottom: 10px;
+}
+
+.bio{
+    line-height: 18px;
+    text-align: left;
+    font-size: 12px;
+    color: #8087a1;
+    font-weight: bold;
+}
+
+.content-box2{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #141c2f;
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-title{
+    font-size: 10px;
+    padding: 5px;
+    color: #8087a1;
+    font-weight: bold;
+}
+
+.content-value{
+    padding: 3px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.location{
+    font-size: 10px;
+    padding: 5px;
+    color: #8087a1;
+}
+
+.content-box3{
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.content-box3 span{
+    font-size: 14px;
+    color:#8087a1;
+    font-weight: bold;
+    margin-left: 5px;
+}
